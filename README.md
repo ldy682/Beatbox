@@ -4,7 +4,9 @@ This is an application that uses the Beaglebone Green along with a Red Zen Cape 
 
 ## Function 
 
-
+- Continuously play a beat which is outputted from the hardware's headphone jack.
+- Joystick controls
+ -- s
 
 ## Required Libraries
 
