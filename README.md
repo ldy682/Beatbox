@@ -15,4 +15,6 @@ This is an application that uses the Beaglebone Green along with a Red Zen Cape 
 
 ## Dependencies
 - CMake is required to be installed in the host
-  ``` sudo apt-get install cmake 
+  ```
+  sudo apt-get install cmake 
+  ```
