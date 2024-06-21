@@ -16,15 +16,21 @@ This is an application that uses the Beaglebone Green along with a Red Zen Cape 
 ## Dependencies
 - CMake is required to be installed in the host in order to build this project
   ```
-  sudo apt-get install cmake 
+  (host)$ sudo apt-get install cmake 
   ```
 - Cross compiler tools needed to be installed in the host to create an executable for the target
   ```
-  sudo apt install gcc make
+  (host)$ sudo apt install gcc make
+  (host)$ sudo apt install gcc-arm-linux-gnueabihf
+  (host)$ sudo apt install binutils-arm-linux-gnueabihf
+  ```
+- In order to cross compile the program to play the audio on the target
+  ```
+  (target)$ sudo apt update
+  (target)$ sudo apt install libasound2
   ```
   ```
-  sudo apt install gcc-arm-linux-gnueabihf
+  (host)$ sudo apt install libasound2-dev
+  (host)$ sudo dpkg --add-architecture armhf
+  (host)$ sudo apt install libasound2-dev:armhf
   ```
-  ```
-  sudo apt install binutils-arm-linux-gnueabihf
-
