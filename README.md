@@ -35,3 +35,7 @@ This is an application that uses the Beaglebone Green along with a Red Zen Cape 
   (host)$ sudo dpkg --add-architecture armhf
   (host)$ sudo apt install libasound2-dev:armhf
   ```
+- To access the webpage, node modules are needed to be installed in the server directory on the target
+  ```
+  (target)$ npm install
+  ```
