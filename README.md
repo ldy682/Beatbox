@@ -3,7 +3,7 @@
 This is an application that uses the Beaglebone Green along with a Red Zen Cape attached on top of it. The host (the vm) and the target (Beaglebone) uses debian 11.8 as their operating systems.
 
 ## Function 
-- Building the program using the CMake copies the wave-files, nodejs-server, and the arm executable to a beatbox folder that can be sent to the target to run.
+- Building the program using CMake copies the wave-files, nodejs-server, and the arm executable to a folder this folder has to be mounted to the target in order to run.
 - Continuously play a beat which is outputted from the hardware's headphone jack.
 - Joystick controls
   - up/down to increase and decrease volume
